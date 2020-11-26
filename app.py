@@ -23,4 +23,4 @@ def delete_user(id):
 	return jsonify(response)
 
 if __name__ == '__main__':
-	app.run()
+	app.run('0.0.0.0')
